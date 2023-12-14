@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "288304823958",
+    "firebase_url": "https://purchasesapp-f7029-default-rtdb.firebaseio.com",
+    "project_id": "purchasesapp-f7029",
+    "storage_bucket": "purchasesapp-f7029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288304823958:android:6cfe05316cb860a1668cb7",
+        "android_client_info": {
+          "package_name": "com.example.mycartfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4NbH7OcYEwCviIssw7dFoBv-ZQe0_9wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

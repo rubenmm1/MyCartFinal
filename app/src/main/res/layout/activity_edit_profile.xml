@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.EditProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#868080"
+            android:enabled="false"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+        <EditText
+            android:id="@+id/edit_surname"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#868080"
+            android:enabled="false"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="#868080"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.708"
+            android:enabled="false"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+        <EditText
+            android:id="@+id/edit_age"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:ems="10"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#868080"
+            android:enabled="false"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/bt_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F7BA51"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/btEditProfile"
+            android:textColor="#1B5E20"
+            tools:text="@string/btEditProfile"
+            android:layout_marginTop="20dp"/>
+
+
+        <ProgressBar
+            android:id="@+id/progressBarEdit"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="78dp"
+            android:layout_height="75dp"
+            android:indeterminateTint="#F7BA51"
+            android:progressBackgroundTint="#F7BA51"
+            android:progressTint="#F7BA51"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mycartfinal.Activities.CreateCartActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/linearCarrito"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCarrito"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:text="@string/txt_cart"
+            android:layout_marginStart="7pt"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgCarrito"
+            android:src="@drawable/ic_baseline_shopping_cart_create"
+            android:layout_marginStart="15dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btSaveCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_baseline_save_40"
+            android:text=""
+            tools:ignore="SpeakableTextPresentCheck"
+            android:layout_marginStart="5pt"
+            android:layout_marginEnd="8pt"/>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerViewProducts"/>
+
+
+
+
+
+</LinearLayout>
